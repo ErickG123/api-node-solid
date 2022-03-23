@@ -1,0 +1,22 @@
+{
+  "name": "api-node-solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ErickG123/api-node-solid.git",
+  "author": "Erick Gabriel dos Santos Alves <erickgabrielalves@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.11.0",
+    "@types/express": "^4.17.13",
+    "express": "^4.17.3",
+    "prisma": "^3.11.0",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
